@@ -96,6 +96,7 @@ export default function CamperCard({ camper }: Props) {
         </div>
 
         <Link
+          prefetch={false}
           href={`/catalog/${camper.id}`}
           className={` ${style.button} ${css.showMoreBtn}`}
         >

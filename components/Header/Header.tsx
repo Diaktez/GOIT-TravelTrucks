@@ -18,6 +18,7 @@ export default function Header() {
           <ul className={css.nav}>
             <li>
               <Link
+                prefetch={false}
                 href="/"
                 className={`${css.navLink} ${
                   pathname === '/' ? css.active : ''
@@ -28,6 +29,7 @@ export default function Header() {
             </li>
             <li>
               <Link
+                prefetch={false}
                 href="/catalog"
                 className={`${css.navLink} ${
                   pathname === '/catalog' ? css.active : ''
