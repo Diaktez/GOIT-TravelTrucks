@@ -1,0 +1,51 @@
+.featuresContentOnly {
+    width: 100%;
+}
+
+.badgesGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 55px;
+    min-height: 150px;
+    align-content: flex-start;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 18px;
+    border-radius: 100px;
+    background-color: var(--gray-light);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--text-main);
+}
+
+
+
+.detailsTitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    padding-bottom: 8px;
+    color: var(--text-main);
+    border-bottom: 1px solid var(--grey-light);
+}
+
+
+.specsList li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 14px 0;
+    font-weight: 500;
+
+}
+
+/* .form {
+    text-transform: capitalize;
+} */

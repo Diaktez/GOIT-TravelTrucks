@@ -1,0 +1,43 @@
+.header {
+    background-color: var(--inputs);
+    border-bottom: 1px solid var(--badges);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    justify-content: space-between;
+
+}
+
+.navWrapper {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    gap: 32px;
+    flex-shrink: 1;
+}
+
+.navLink {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main);
+    text-align: center;
+    transition: color 0.25s;
+}
+
+.navLink:hover {
+    color: var(--button-hover);
+}
+
+.navLink.active {
+    color: var(--button-hover);
+    font-weight: 600;
+}

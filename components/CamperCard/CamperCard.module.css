@@ -1,0 +1,121 @@
+.card {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(17, 17, 17, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 6px 20px rgba(17, 17, 17, 0.15);
+}
+
+.imageWrapper {
+    width: 290px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.priceRow {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.priceWrapper {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 8px;
+}
+
+.title,
+.price {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.ratingLocation {
+    display: flex;
+    gap: 16px;
+}
+
+.ratingWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.location,
+.rating {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.categories {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    max-width: 390px;
+
+}
+
+.badge {
+    display: flex;
+    gap: 8px;
+    border-radius: 100px;
+    padding: 12px 18px;
+    background-color: var(--badges);
+}
+
+.showMoreBtn {
+    width: 205px;
+    padding: 16px 40px;
+}

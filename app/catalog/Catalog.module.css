@@ -1,0 +1,15 @@
+.catalogSection {
+    display: flex;
+    gap: 64px;
+    /* Отступ между фильтрами и списком по макету */
+    align-items: flex-start;
+    /* ВАЖНО: Это не дает фильтрам растягиваться по высоте */
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+/* Если список пустой или там ошибка, этот блок все равно займет все оставшееся место */
+.rightColumn {
+    flex-grow: 1;
+    max-width: 100%;
+}

@@ -1,0 +1,105 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleWrapper {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.title,
+.price {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.ratingWrapper {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.rating,
+.location {
+    display: flex;
+    gap: 4px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.galery {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.image {
+    width: calc((100% - 32px) / 3);
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text);
+    margin-bottom: 60px;
+}
+
+.tabs {
+    display: flex;
+    gap: 40px;
+    border-bottom: 1px solid var(--gray-light);
+    margin-bottom: 44px;
+
+}
+
+.tabButton {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: var(--black);
+    border-bottom: 4px solid transparent;
+    transition: color 0.2s, border-bottom 0.2s;
+    padding-bottom: 24px;
+}
+
+.activeTab {
+    border-bottom: 5px solid var(--button);
+}
+
+.contentAndFormWrapper {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    padding-bottom: 60px;
+}
+
+.tabContentBlock,
+.staticFormBlock {
+    flex: 1;
+    padding: 44px 52px;
+}
+
+.tabContentBlock {
+    border-radius: 10px;
+    background-color: var(--inputs);
+}
+
+
+.staticFormBlock {
+    border: 1px solid var(--gray-light);
+    border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+
+.loadMoreBtn {
+    display: flex;
+    border: 1px solid var(--gray-light);
+    border-radius: 200px;
+    padding: 16px 32px;
+    width: 145px;
+    margin: 0 auto;
+    margin-bottom: 52px;
+}
+
+.loadMoreBtn:hover {
+    border: 1px solid var(--button-hover);
+
+}
+
+.emptyMessageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.emptyMessageTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-main);
+    margin-bottom: 8px;
+}
+
+.emptyMessageSubtitle {
+    font-size: 16px;
+    color: var(--text-gray);
+}

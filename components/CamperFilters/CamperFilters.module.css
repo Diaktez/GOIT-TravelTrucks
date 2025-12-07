@@ -1,0 +1,127 @@
+.aside {
+    width: 360px;
+    flex-shrink: 0;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.label {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--gray);
+    margin-bottom: 8px;
+}
+
+.inputWrapper {
+    background-color: var(--inputs);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    padding: 16px 20px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
+    cursor: text;
+
+}
+
+.inputWrapper:focus-within {
+    border-color: var(--button-hover);
+}
+
+.inputWrapper svg {
+    flex-shrink: 0;
+    fill: transparent;
+    stroke: var(--gray);
+    opacity: 0.6;
+}
+
+.inputWrapper:focus-within svg {
+    opacity: 1;
+    stroke: var(--text-main);
+}
+
+
+
+.input {
+    background-color: inherit;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main);
+
+}
+
+.input::placeholder {
+    color: var(--gray);
+    opacity: 1;
+
+
+}
+
+
+.labelFilter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text);
+    margin-bottom: 32px;
+}
+
+.filterGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+
+}
+
+.filterGroupEquipment {
+    margin-bottom: 32px;
+}
+
+.filterButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16 40;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--main);
+    max-width: 112px;
+    transition: border-color 0.2s
+}
+
+.active {
+    border-color: var(--button);
+}
+
+.h3 {
+    margin-bottom: 48px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--main);
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--gray-light);
+
+}
+
+.searchButton {
+    border-radius: 200px;
+    padding: 16px 60px;
+    width: 166px;
+    height: 56px;
+}

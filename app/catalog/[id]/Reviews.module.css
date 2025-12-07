@@ -1,0 +1,15 @@
+.reviewsList {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+
+}
+
+.noReviews {
+    font-size: 18px;
+    color: var(--text-secondary);
+    text-align: center;
+    padding: 20px;
+    border: 1px dashed var(--gray-light);
+    border-radius: 8px;
+}
