@@ -27,8 +27,7 @@ fleet, filter by your needs, and book your dream van for the next adventure.
 
 Clone the repository:
 
-git clone
-[https://github.com/YOUR_USERNAME/travel-trucks.git](https://github.com/YOUR_USERNAME/travel-trucks.git)
+git clone https://github.com/Diaktez/GOIT-TravelTrucks.git
 
 Install dependencies:
 
